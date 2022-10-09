@@ -16,7 +16,7 @@ const Custom404 = () => {
     <div>
       <h1>Oops..!</h1>
       <h3>Halaman yang anda cari tidak ada</h3>
-      <button onClick={handleClick}>Back to Home</button>
+      <button type="button" onClick={handleClick}>Back to Home</button>
     </div>
   )
 }
